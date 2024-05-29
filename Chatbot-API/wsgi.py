@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'therapy_chatbot.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CHATBOT.settings')
 
 application = get_wsgi_application()
