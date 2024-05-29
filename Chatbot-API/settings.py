@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'CHATBOT.urls'
+ROOT_URLCONF = 'Chatbot-API.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'CHATBOT.wsgi.application'
+WSGI_APPLICATION = 'Chatbot-API.wsgi.application'
 
 
 # Database
