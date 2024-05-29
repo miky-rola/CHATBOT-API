@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/api/chat/
+content-type: application/json
+Authorization: Token af8a310cd29baa8b2b3b29eb89af9909b707855d
+
+{
+    "username": "miky_rola2",
+    "email": "mikyrola8@gmail.com",
+    "message": " what is carbohydrate"
+}
